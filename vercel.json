@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/Sanooj/wisk.aero/index.html"
+    },
+    {
+      "src": "^/framerusercontent.com/(.*)$",
+      "dest": "/Sanooj/framerusercontent.com/$1"
+    },
+    {
+      "src": "^/snap.licdn.com/(.*)$",
+      "dest": "/Sanooj/snap.licdn.com/$1"
+    },
+    {
+      "src": "^/t.contentsquare.net/(.*)$",
+      "dest": "/Sanooj/t.contentsquare.net/$1"
+    },
+    {
+      "src": "^/unpkg.com/(.*)$",
+      "dest": "/Sanooj/unpkg.com/$1"
+    },
+    {
+      "src": "^/wisk.aero/(.*)$",
+      "dest": "/Sanooj/wisk.aero/$1"
+    }
+  ]
+}
